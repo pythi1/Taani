@@ -1,0 +1,71 @@
+body{
+    background-color: aqua;
+    background: url("../20352056.jpg");
+
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 50px 10px;
+    font-size: 4rem;
+}
+
+h4{
+    text-align: center;
+}
+
+.images{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 42%;
+    
+}
+
+
+.photos{
+    height: 200px;
+    width: 200px;
+    margin: 30px 50px;
+    border-radius: 10px;
+    border: 5px solid yellow;
+ 
+}
+
+.wishes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 100px;
+}
+
+.wish{
+    border: 2px solid red;
+    border-radius: 25px;
+    width: 390px;
+    height: 300px;
+    margin: 40px 60px;
+    text-align: center;
+    background-color: rgb(211, 114, 114);
+    
+}
+
+.wish h2{
+    font-size: 2rem;
+    color: blue;
+    margin: 20px auto;
+}
+
+.wish p{
+    font-size: 1.37rem;
+    font-weight: bold;
+    margin: 40px 10px;
+}
+
+#love{
+    font-size: 3rem;
+    color: rgb(31, 4, 239);
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    background: url("../img/Birthday-wishes.jpg");
+}
+
+.details{
+    display: grid;
+    grid-template-areas: 'heading heading heading' 'photo1 tarif tarif' 'photo2 tarif tarif';
+    grid-gap: 5px;
+}
+
+.heading{
+    grid-area: heading;
+    height: 70px;
+    margin: 10px 5px;
+    background-color: coral;
+    border: 2px solid rgb(80, 91, 251);
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 10px;
+}
+
+.tarif p{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 100px 120px;
+    font-weight: bold;
+}
+
+.photo1 img{
+    width: 300px;
+    height: 470px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px 20px;
+    grid-area: photo1;
+}
+
+.photo2 img{
+    width: 300px;
+    height: 460px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px 20px;
+    grid-area: photo2;
+}
+.tarif{
+    grid-area: tarif;
+    height: 100vh;
+
+}
+

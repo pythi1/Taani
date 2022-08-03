@@ -1,0 +1,63 @@
+body{
+    background: url("../happy-birthday-poster-background-happy-birthday-panels-7.jpg");
+    margin: 0px;
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+
+.wish{
+    display: grid;
+    grid-template-areas: 'head head head head head' 'start start tarif last last';
+    grid-gap: 30px;
+}
+
+#head{
+    grid-area: head;
+    height: 100px;
+
+}
+
+#start{
+    grid-area: start;
+    height: 100vh;
+}
+
+#tarif{
+    grid-area: tarif;
+    height: 100vh;
+
+}
+
+#last{
+    grid-area: last;
+    height: 100vh;
+}
+
+#start img {
+    width: 300px;
+    height: 450px;
+    margin: 10px 10px;
+    border: 5px solid yellowgreen;
+    border-radius: 5px;
+
+}
+
+#last img {
+    width: 300px;
+    height: 450px;
+    margin: 10px 10px;
+    border: 5px solid yellowgreen;
+    border-radius: 5px;
+}
+
+#tarif p{
+    color: white;
+    margin: 125px 70px;
+    font-size: 1.7rem;
+    text-align: center;
+
+}
